@@ -7,7 +7,7 @@
     "test": "nodemon server",
     "start": "node server"
   },
-  "author": "",
+  "author": "Luke Ellis",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
