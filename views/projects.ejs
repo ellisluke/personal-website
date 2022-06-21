@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<?php $page = "projects" ?>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Projects of Luke Ellis</title>
+        <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="/styles/projects.css">
+
+    </head>
+    <body>
+        <%- include("partials/header") %>
+        <main>
+            <%- include('partials/project', {
+                videolink: "https://www.youtube.com/embed/XIxdRrkG6U4",
+                title: "Magnolia",
+                text: "One of my best friends since middle school, it is always a treat to perform with Miya Heulitt! While we go to different colleges now, we can always pick up right where we left off in our friendship. The cool part now, is whenever we get back together to record a tune, we have both improved! Somehow, she always sounds better than the last time I saw her. This tune is by the up and coming Laufey, who we both love. Check out her other work on major streaming platforms!"
+            }); %>
+
+            <%- include('partials/project', {
+                videolink: "https://www.youtube.com/embed/pvuJlPmw1b8",
+                title: "In the Wee Small Hours of the Morning",
+                text: "The first time I heard this song (off the Frank Sinatra album of the same title), I was transported to a lonely and rainy city street with my watch showing 3:30am. This song is a reminder to me of what a simple, yet clear piece of music can do to the emotions. By the way, the album “In the Wee Small Hours” (that opens with this song) by Frank Sinatra is a great album for bedtime."
+            }); %>
+
+            <%- include('partials/project', {
+                videolink: "https://www.youtube.com/embed/T3bpEMSOj9o",
+                title: "What is this Thing Called Love",
+                text: "I recorded this video as part of an audition for colleges. I’m very pleased with how it came out, and it earned me an audition at the Eastman School of Music (which I flopped, but that’s a different story). This song taught me a lot about jazz (especially some technical tricks), and I had practiced it for about a year prior to this recording. I was accompanied by Dean Taba on bass and Noel Okimoto on drums. I now realize that these two musicians were way over-qualified to be playing with me, but I remain thankful for their support."
+            }); %>
+
+
+        </main>
+
+    </body>
+    <!-- <?php include('includes/footer.php'); ?> -->
+</html>

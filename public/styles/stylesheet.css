@@ -1,0 +1,331 @@
+/* Color Palette
+Black: 000000
+White: FFFFFF
+Lawngreen: 7DFF00
+Light Blue: 5EE8FF
+Light Red: FF7373
+
+*/
+
+/* HEADER STYLE */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+#top-container {
+    width: 100%;
+    height: 20em;
+    margin-top: 10px;
+}
+#logo {
+    width: 10%;
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200%;
+    font-style: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#main-logo {
+    color: black;
+    text-decoration: none;
+}
+#main-logo:hover {
+    color: lawngreen;
+}
+
+#name-box {
+    min-height: 1px;
+    width: 30%;
+    float: left;
+}
+#name {
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 300%;
+    transition: 50ms;
+    color: black;
+}
+#name:hover {
+    color: lawngreen;
+    transition: 50ms;
+    font-size: 320%;
+}
+
+.active {
+    font-size: 300%;
+}
+
+#pic-container {
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+
+#main-hs {
+    width: 80%;
+
+    margin-top:0;
+    margin-left: 10%;
+    border-radius: 50%;
+    transition: 100ms;
+}
+
+#main-hs:hover {
+    height: 85;
+    margin-left: 7.5%;
+    margin-top: 3.5%;
+    animation-name: pic-spin;
+    animation-iteration-count: 1;
+    animation-duration: 400ms;
+    animation-timing-function: linear;
+}
+
+#menu {
+    padding-top: 5%;
+    float: left;
+}
+
+.menu-item {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200%;
+}
+.menu-item:hover {
+    color: lawngreen;
+    font-size: 220%;
+    transition: 50ms;
+}
+.links {
+    color: inherit;
+    text-decoration: none;
+}
+
+#home-subtext {
+    color: inherit;
+    font-size: 15px;
+    margin: 0 0 0 0;
+}
+
+@keyframes pic-spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+/* HOME PAGE */
+
+#welcome-message {
+    float: right;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    inline-size: 30%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+#mainPagePiano {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    transition: 0.5s;
+}
+
+#mainPagePiano:hover {
+    width: 40.5%;
+    box-shadow: 4px 4px #FF7373;
+    transition: 0.5s;
+}
+#pc-index {
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+}
+
+/* CONTACT PAGE */
+
+#contact-pic {
+    width: 60%;
+    box-shadow: 0px 0px;
+    transition: 400ms;
+    min-width: 300px;
+}
+#contact-pic:hover {
+    width: 60.6%;
+    box-shadow: 4px 4px #5EE8FF;
+
+}
+#contact-pic-container {
+    width: 40%;
+    margin-left: 20%;
+    float: left;
+}
+
+#contact-info {
+    float: left;
+    margin-left: 0%;
+    font-family: 'Roboto Mono', monospace;
+    width: 38%;
+    text-align: center;
+}
+
+#contact-header {
+    font-size: 250%;
+    text-decoration: underline;
+    text-decoration-color: lawngreen;
+}
+
+#email {
+    font-size: 100%;
+}
+#email-text {
+    text-decoration: underline;
+    text-decoration-color: lawngreen;
+}
+
+#socials-info {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    width: 80%;
+    margin-left: 20%;
+}
+#socials-header {
+    font-size: 200%;
+    text-decoration: underline;
+    text-decoration-color: #FF7373;
+}
+
+#ig {
+    float: left;
+    width: 30%;
+    font-size: 250%;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#ig:hover {
+    box-shadow: 2px 2px 2px 2px #7DFF00;
+    transition: 0.5s;
+}
+
+#ig-logo {
+    width: 20%;
+}
+#ig-handle {
+    width: 100%;
+    text-decoration: underline;
+    text-decoration-color: #7DFF00;
+}
+
+
+.social {
+    margin-left: 3%;
+    margin-top: 0;
+    width: 20%;
+
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+}
+
+#youtube:hover {
+    box-shadow: 2px 2px 2px 2px #FF7373;
+    transition: 0.5s;
+}
+
+#yt-logo {
+    width: 40%;
+}
+
+
+#credit-div {
+    float: left;
+    width: 100%;
+}
+
+#linkedin-logo {
+    width: 40%;
+
+}
+
+#linkedin {
+    height: 20%;
+    margin-left: 5%;
+    text-align: center;
+}
+#linkedin:hover {
+    box-shadow: 2px 2px 2px 2px #5EE8FF;
+    transition: 0.5s;
+}
+
+/* GLOBAL */
+a {
+    text-decoration: none;
+    color: black;
+}
+.pc {
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+
+}
+body {
+    margin: 0 0 0 0;
+}
+
+
+
+/* FOOTER STYLE */
+
+#footer-box {
+    width: 100%;
+    float: left;
+    height: 400px;
+    background-color: #5EE8FF;
+    margin-top: 20px;
+}
+
+#big-i {
+    width: 30%;
+    height: 100%;
+    margin-left: 0%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 400px;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+}
+
+.footer-divs {
+    width: 20%;
+    height: 400px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.footer-divs ul {
+    list-style-type: none;
+}
+
+#nav-footer {
+    margin-left: 20%;
+}
+
+.nav-links {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav-links:hover {
+    font-size: 43px;
+    color:#FF7373;
+    transition: 0.4s;
+}
+
+.list-header {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+    text-decoration: underline
+}
