@@ -114,7 +114,6 @@ body {
 }
 
 /* HOME PAGE */
-
 #welcome-message {
     float: right;
     font-family: 'Roboto Mono', monospace;
@@ -122,6 +121,14 @@ body {
     inline-size: 30%;
     padding-right: 10%;
     padding-top: 2%;
+}
+
+@media screen and (max-width: 700px) {
+    
+    #mainPagePiano {
+        width: 80%;
+    }
+    
 }
 
 #mainPagePiano {
@@ -141,6 +148,8 @@ body {
     width: 60%;
     margin-left: 10%;
 }
+
+
 
 /* CONTACT PAGE */
 
