@@ -66,3 +66,22 @@ section {
     height: 5px;
     border-radius: 5%;
 }
+
+@media screen and (max-width: 800px) {
+    .video-box {
+        margin-left: 10%;
+        width: 80%;
+        height: 50%;
+    }
+    .video-box:hover {
+        width: 82%;
+    }
+    .text-box {
+        width: 90%;
+        float: left;
+    }
+
+    .proj-header {
+        font-size: 30px;
+    }
+}

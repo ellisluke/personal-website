@@ -76,6 +76,38 @@ Light Red: FF7373
     float: right;
 }
 
+@media screen and (max-width: 800px) {
+    .pic-div {
+        
+        height: 500px;
+        margin-top: 2%;
+        margin-left: 3%;
+        /* background-color: blue;*/
+        width: 100%;
+        padding-bottom: 4px;
+    }
+    
+    .text-div {
+        float: left;
+        height: 500px;
+        margin-top: 2%;
+        margin-left: 2%;
+        /* background-color: red;*/
+        width: 98%;
+        height: 110%;
+        text-align: left;
+
+    
+        border-color: black;
+        border-width: 2px;
+        border-style: double;
+        padding-bottom: 10px;
+    }
+
+    .photo-credit {
+        width: 90%;
+    }
+}
 
 /* SPECIFICS */
 #about-1 {
@@ -195,4 +227,23 @@ Light Red: FF7373
     transition: 0.4s;
     color: #65ce03;
     font-size: 35px;
+}
+
+@media screen and (max-width: 800px) {
+    #about-1 {
+        font-size: 25px;
+    }
+
+    #about-2 {
+        font-size: 25px;
+    }
+    #about-3 {
+        font-size: 25px;
+    }
+    #about-4 {
+        font-size: 25px;
+    }
+    #about-5 {
+        font-size: 25px;
+    }
 }
