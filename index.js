@@ -6,4 +6,4 @@ app.get("*", (req, res) => {
     res.redirect("https://ellisluke.com")
 })
 
-app.listen(5000)
+app.listen(process.env.PORT || 3000)
